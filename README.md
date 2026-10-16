@@ -38,4 +38,4 @@ g++ supermarket_queue.cpp -o supermarket_queue
 ## Conclusion
 This project demonstrates how a queue can be implemented using a singly linked list to manage supermarket customers efficiently.
 
-## Author
+
