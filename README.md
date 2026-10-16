@@ -1,28 +1,29 @@
-# Supermarket Customer Queue Using Linked List
+# Folder Size Calculator
 
 ## Objective
-To develop a supermarket customer queue management system using a singly linked list in C++.
+To develop a folder-size calculation application using a binary tree and non-recursive postorder traversal.
 
 ## Description
-This project is developed using C++. It manages customers waiting for service in a supermarket using a singly linked list.
+This project is developed using C++. It allows users to create a root folder, add subfolders, display the folder structure, and calculate the total size of folders.
 
-The program follows the FIFO (First In, First Out) principle, which means the customer who arrives first is served first.
+The program uses a binary tree to represent folders and two stacks to implement non-recursive postorder traversal. It processes subfolders before their parent folders to calculate the total size.
 
 ## Features
-- Add a customer to the queue.
-- Serve the first customer.
-- Display all waiting customers.
-- Exit the program.
+- Create a root folder.
+- Add subfolders.
+- Display folder structure.
+- Calculate total folder sizes.
+- Avoid repeated size calculation errors.
 
 ## Concepts Used
-- Singly Linked List
+- Binary Tree
+- Stack
 - Pointers
-- Dynamic Memory Allocation
-- Queue Operations
-- FIFO Principle
 - Classes and Objects
+- Non-Recursive Postorder Traversal
+- Dynamic Memory Allocation
 
-## Language
+## Programming Language
 C++
 
 ## How to Run
@@ -30,12 +31,10 @@ C++
 2. Open the file in a C++ compiler.
 3. Compile and run the program.
 
-Example using GCC:
 
-g++ supermarket_queue.cpp -o supermarket_queue
-./supermarket_queue
+
+## Learning Outcomes
+This project helps understand binary trees, stack operations, and non-recursive postorder traversal for calculating folder sizes.
 
 ## Conclusion
-This project demonstrates how a queue can be implemented using a singly linked list to manage supermarket customers efficiently.
-
-
+The project demonstrates how a binary tree and non-recursive postorder traversal can be used to calculate the total size of folders and their subfolders.
