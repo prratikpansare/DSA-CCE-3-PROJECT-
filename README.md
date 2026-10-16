@@ -1,46 +1,39 @@
-# Folder Size Calculator Using Binary Tree
-
-## Problem Statement
-Develop a folder-size calculation application using a binary tree and implement non-recursive postorder traversal to process subfolders before their parent folder.
+# Supermarket Customer Queue Using Linked List
 
 ## Objective
-To calculate total folder sizes using a Binary Tree and Non-Recursive Postorder Traversal in C++.
+To develop a supermarket customer queue management system using a singly linked list in C++.
 
-## Data Structures Used
-- Binary Tree
-- Stack
+## Description
+This project is developed using C++. It manages customers waiting for service in a supermarket using a singly linked list.
+
+The program follows the FIFO (First In, First Out) principle, which means the customer who arrives first is served first.
+
+## Features
+- Add a customer to the queue.
+- Serve the first customer.
+- Display all waiting customers.
+- Exit the program.
 
 ## Concepts Used
-- C++
-- Classes and Objects
+- Singly Linked List
 - Pointers
-- Binary Tree
-- Stack
-- Non-Recursive Postorder Traversal
+- Dynamic Memory Allocation
+- Queue Operations
+- FIFO Principle
+- Classes and Objects
 
-## Operations
-- Create folders using tree nodes.
-- Store the size of each folder.
-- Process subfolders before parent folders.
-- Calculate and display total folder sizes.
+## Language
+C++
 
-## Algorithm
-1. Start the program.
-2. Create a binary tree representing folders and subfolders.
-3. Store each folder's name and initial size.
-4. Use two stacks to perform non-recursive postorder traversal.
-5. Process child folders before their parent folder.
-6. Add the sizes of child folders to the parent folder's size.
-7. Display the calculated folder sizes.
-8. Stop the program.
+## How to Run
+1. Download the source code.
+2. Open the file in a C++ compiler.
+3. Compile and run the program.
 
+Example using GCC:
 
-## Advantages
-- Processes subfolders before their parent folder.
-- Uses stack-based traversal without recursion.
-- Demonstrates hierarchical folder organization.
-- Calculates total sizes using child folder sizes.
+g++ supermarket_queue.cpp -o supermarket_queue
+./supermarket_queue
 
 ## Conclusion
-The Folder Size Calculator demonstrates how a Binary Tree and Non-Recursive Postorder Traversal can be used to calculate folder sizes. It processes subfolders before their parent folders and helps understand tree traversal and stack operations in C++.
-
+This project demonstrates how a queue can be implemented using a singly linked list to manage supermarket customers efficiently.
